@@ -10,7 +10,7 @@ def solution(x: np.array) -> float:
     n = len(x)
     mu = -43
     sigma = np.exp(1) 
-    error_v = np.random.normal(mu, sigma, n) # ошибки
+    error_v = np.random.normal(mu, sigma, n) 
     a = error_v/t 
     print(a)
-    return x.mean() # Ваш ответ
+    return x.mean() 
